@@ -1,0 +1,126 @@
+{
+  "project": "SILENCE...",
+  "file_count": 24,
+  "files": [
+    {
+      "path": "Assets/SILENCE/Scenes/GENERATION_INSTRUCTIONS.txt",
+      "size": 287,
+      "sha256": "73e266595739e8fbe0c950b5b40c110bb39499be2e7bfdd654cbfc2cd6fc803b"
+    },
+    {
+      "path": "Assets/SILENCE/Scripts/AI/ListenerAI.cs",
+      "size": 9080,
+      "sha256": "09c4c23796bfb07f636a127ce4fe52850f5e006ddd533c98bbfde0f9b24cc4d9"
+    },
+    {
+      "path": "Assets/SILENCE/Scripts/Core/GameDirector.cs",
+      "size": 6040,
+      "sha256": "f1eb3b4b63e0c3af4d2842a12951441a7f27c186ab7d5b3e961d86de7976e9f5"
+    },
+    {
+      "path": "Assets/SILENCE/Scripts/Core/SoundBus.cs",
+      "size": 2100,
+      "sha256": "ace4c4acd8537422bd4f37e1df060b3042a48329144c893398486604a467fce5"
+    },
+    {
+      "path": "Assets/SILENCE/Scripts/Editor/SilenceAndroidBuild.cs",
+      "size": 1899,
+      "sha256": "153399c5283a59fe19ac12d26b298a2bdeac9681b74df651617af400dcb55cb3"
+    },
+    {
+      "path": "Assets/SILENCE/Scripts/Editor/SilenceSceneGenerator.cs",
+      "size": 33692,
+      "sha256": "be02f890b041db991e485192b6fb406a7389b14bb19f2a675f89e5a5d542ed7e"
+    },
+    {
+      "path": "Assets/SILENCE/Scripts/Interaction/InteractiveObject.cs",
+      "size": 5448,
+      "sha256": "af1d762f2d4d6d288465d7247b0c25bd3028e68edd6e900e7ed346cf73bda500"
+    },
+    {
+      "path": "Assets/SILENCE/Scripts/Interaction/NetworkDrawer.cs",
+      "size": 1162,
+      "sha256": "001de06a4191c708657fa54eb67fd6f8ef277443cfbb0e890b7d113adcac2b8a"
+    },
+    {
+      "path": "Assets/SILENCE/Scripts/Interaction/NetworkProp.cs",
+      "size": 3164,
+      "sha256": "f8d2394f84bd5b0412901051d28d893f04e3c957238124d12e86ef2ab60a9e68"
+    },
+    {
+      "path": "Assets/SILENCE/Scripts/Network/NetworkAvatar.cs",
+      "size": 5070,
+      "sha256": "417c2e22802027d700fc0e2fc486c4d74b1b5b6ee1211c4348a0016c6bec7a96"
+    },
+    {
+      "path": "Assets/SILENCE/Scripts/Network/RelaySession.cs",
+      "size": 3697,
+      "sha256": "4b91c1ee285f1dbf42761d9d8aed8472d667593635a3813fb64048b0015af38c"
+    },
+    {
+      "path": "Assets/SILENCE/Scripts/VR/ClimbInteractor.cs",
+      "size": 1625,
+      "sha256": "c74757b13a57f243c2e36a5135ab44bf69dbf9abddd8f5de78e8eba62a8c9a51"
+    },
+    {
+      "path": "Assets/SILENCE/Scripts/VR/HandVisual.cs",
+      "size": 1300,
+      "sha256": "83a7fa656fcaba3fed82e21b72a313d52d1102194313506c0bb0cdbbbb41490f"
+    },
+    {
+      "path": "Assets/SILENCE/Scripts/VR/MicrophoneListener.cs",
+      "size": 2342,
+      "sha256": "4a1e823096756ecbfb490ba5cfc3134f9fcb314858816a63d9586ff5da47b4d0"
+    },
+    {
+      "path": "Assets/SILENCE/Scripts/VR/QuestPerformance.cs",
+      "size": 817,
+      "sha256": "1f0a9aa2c381ff6a7b686a92e09f807df7116731e402d23ec72a21c8cb437978"
+    },
+    {
+      "path": "Assets/SILENCE/Scripts/VR/QuestRig.cs",
+      "size": 7485,
+      "sha256": "6864a0ea911f58312e22ead9ec7b7c1f5f02666258c0605f734c0866d17fccfd"
+    },
+    {
+      "path": "Assets/SILENCE/Scripts/VR/VRInteractor.cs",
+      "size": 3002,
+      "sha256": "b7aae5035a19a65a596c65384c223ee7f5f029a258c0a2ee96ce9bc0a8c01feb"
+    },
+    {
+      "path": "Assets/SILENCE/Scripts/VR/WorldMenu.cs",
+      "size": 4062,
+      "sha256": "969656597487a7efbda87b8f25015327b62a1e025abd55de6b7725df02a54953"
+    },
+    {
+      "path": "Assets/SILENCE/Scripts/VR/WristDisplay.cs",
+      "size": 1208,
+      "sha256": "8989d87f1d136dfbc56e121249ff796557742901317d7bac3ea9b073be1b0c24"
+    },
+    {
+      "path": "Assets/SILENCE/Scripts/World/DistrictCuller.cs",
+      "size": 994,
+      "sha256": "541e6b08b57ec406e6d9bc179184a36b40b3970db696b6599c6bb42e4ee41b45"
+    },
+    {
+      "path": "Packages/manifest.json",
+      "size": 581,
+      "sha256": "69ebeaa8a0164bbaed22f914912db1e42d0b48e2d419caff7bb2cb4857729574"
+    },
+    {
+      "path": "ProjectSettings/ProjectVersion.txt",
+      "size": 70,
+      "sha256": "56f4d5f51fd832c086e66eeb7918244bbb8ea39cdf987ec9bdd56f475c5a0592"
+    },
+    {
+      "path": "QUICKSTART.txt",
+      "size": 759,
+      "sha256": "8a26efba508c50647ba754eaf088503c8633129968b2e19954b9a6229846b0fc"
+    },
+    {
+      "path": "README.md",
+      "size": 12400,
+      "sha256": "5fcc3bbeb6ac9877904292d8fca833dc2ab4b66937b2675432088c1d59eaf000"
+    }
+  ]
+}
