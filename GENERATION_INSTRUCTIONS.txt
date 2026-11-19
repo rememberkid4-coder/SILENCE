@@ -1,0 +1,6 @@
+The scene is produced by the Unity Editor menu:
+  SILENCE... > Generate Playable City Scene
+
+Output: Assets/SILENCE/Scenes/SILENCE_City.unity
+Unity's NavMesh baking and asset serialization run in-editor.
+The .unity scene file is intentionally not invented/hand-serialized outside Unity.

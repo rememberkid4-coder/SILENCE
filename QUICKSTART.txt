@@ -1,0 +1,18 @@
+SILENCE... | Unity 6 Quest source bundle
+
+This is source code + Editor-generated playable blockout, NOT an APK or fully
+polished game. Unity Editor is required to generate the scene and compile.
+
+1. Create a new Unity 6 "Universal 3D" project.
+2. Copy Assets/SILENCE/ into your project. Merge Packages/manifest.json.
+3. Install/enable XR Plug-in Management > Android > OpenXR > Meta Quest Support.
+4. Set Android + ARM64 + IL2CPP + Active Input Handling "Both".
+5. In Unity's top menu: SILENCE... > Generate Playable City Scene.
+6. Link Unity Services for Relay online multiplayer (optional for SOLO).
+7. In Unity: SILENCE... > Build Meta Quest APK.
+8. Output in the Unity project: Builds/SILENCE_Quest.apk.
+
+Read README.md first for details and limitations.
+
+NO PC? Read NO_PC_CLOUD_BUILD.md. Configure Unity Build Automation's
+Pre-export method as Silence.EditorTools.SilenceCloudBuild.PreExport .
