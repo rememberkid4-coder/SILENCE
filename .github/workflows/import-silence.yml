@@ -1,0 +1,40 @@
+name: Import SILENCE Unity 6 Source
+on:
+  push:
+    paths:
+      - "SILENCE_Unity6_Quest_NoPC_CloudBuild.zip"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  import-unity:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout source repository
+        uses: actions/checkout@v4
+      - name: Unpack Unity project
+        shell: bash
+        run: |
+          set -euo pipefail
+          ARCHIVE="SILENCE_Unity6_Quest_NoPC_CloudBuild.zip"
+          if [ ! -f "$ARCHIVE" ]; then
+            echo "::error::Upload $ARCHIVE to the repository root through the GitHub browser."
+            exit 1
+          fi
+          unzip -oq "$ARCHIVE"
+          test -f Packages/manifest.json
+          test -f ProjectSettings/ProjectVersion.txt
+          test -f Assets/SILENCE/Scripts/Editor/SilenceSceneGenerator.cs
+      - name: Save unpacked Unity project
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add Assets Packages ProjectSettings
+          git add -f QUICKSTART.txt FILE_MANIFEST.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Import SILENCE Unity project [skip ci]"
+            git push
+          else
+            echo "Unity files already exist"
+          fi
